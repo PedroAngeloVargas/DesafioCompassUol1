@@ -1,4 +1,4 @@
-# DesafioCompass1
+# DesafioCompassUol1
 Este é o primeiro projeto desenvolvido como parte do programa de estágio AWS DevSecOps 2025 da Compass.Uol.
 
 ## 🔎 Sobre o Projeto

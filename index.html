@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Projeto AWS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+p {
+  text-align: justify;
+}
+
+.container {
+  padding: auto;
+  padding-bottom: 70px;
+}
+
+.w3-bar-item.w3-button:hover {
+  color: orangered !important;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">PROJETO AWS</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Sobre</a>
+      <a href="#aws" class="w3-bar-item w3-button">AWS</a>
+      <a href="#schoolarship" class="w3-bar-item w3-button">Schoolarship</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="/images/compass.jpg" alt="Compass" width="2400" height="1600">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Compass</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+ <div class="container"></div>
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="/images/globo.jpg" class="" alt="Table Setting" width="500" height="500">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Sobre o Projeto</h1><br>
+      <h5 class="w3-center">Programa de estágio AWS DevSecOps 2025 - Compass.Uol - Projeto 1</h5>
+      <p class="w3-large">Trata-se de um projeto em que nosso objetivo como estágiarios é prover uma infraestrutura na cloud provider AWS com estrutura de network e uma máquina virtual. Além disso, também expor essa mesma página em um servidor Nginx com um script de monitoramento que notifica ao proprietário da página que a mesma se encontra indisponivel com o http status code, isso através de um webhook da plataforma Discord.
+      <div class="w3-col l6 w3-padding-large">
+       </div> 
+  </div>
+  </div>
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="container">
+  <div class="w3-row w3-padding-64" id="aws">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Infraestrutura AWS</h1><br>
+      <h4>VPC</h4>
+      <p class="w3-text-grey">A VPC é rede virtual que se assemelha a uma rede tradicional que você operaria no seu data center, mas com o beneficio da escalabilidade</p><br>
+    
+      <h4>Subnets</h4>
+      <p class="w3-text-grey">Uma subnet consiste em um intervalo de endereços IP na VPC.</p><br>
+    
+      <h4>EC2</h4>
+      <p class="w3-text-grey">Uma instância do EC2 é um servidor virtual na Nuvem AWS.</p><br>
+    
+      <h4>Security Group</h4>
+      <p class="w3-text-grey">Firewall que bloqueia e libera portas sob demanda</p><br>
+    
+      <h4>CloudWatch + SNS</h4>
+      <p class="w3-text-grey">A Amazon CloudWatch realiza o monitoramento, em tempo real, dos recursos. Analisando performance, integridade e etc. Enquanto o SNS garante a entrega das métricas pro proprietário</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="/images/aws.jpg" class="" alt="Menu" style="width:100%">
+    </div>
+  </div>
+  </div>
+  <hr>
+
+
+<div class="w3-container w3-padding-64" id="schoolarship">
+  <div class="w3-row">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+      <img src="/images/gemini.png" alt="Gemini" width="500" height="500">
+    </div>
+    <div class="w3-col m6 w3-padding-large">
+      <h1>Schoolarship</h1><br>
+      <p class="w3-large">"Em parceria com universidades selecionadas, o Programa de Bolsas oferece oportunidades de aprendizagem para estudantes de tecnologia com desempenho acadêmico excepcional. Oferece bolsas de estudo para faixas de treinamento personalizadas em soluções e estruturas de ponta, com oportunidades potenciais de emprego após a conclusão do programa".</p>
+      <p class="w3-large w3-text-grey">Compass.Uol</p>
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p2>Feito por <a href="https://github.com/PedroAngeloVargas" title="" target="_blank" class="w3-hover-text-green">PedroAngeloVargas</a></p2><br/>
+</footer>
+
+</body>
+</html>
